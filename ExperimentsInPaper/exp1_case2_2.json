@@ -1,0 +1,1 @@
+{"assignStForMission": "NVF", "assignStForCar": "NMF", "routeAlgo": "TWA", "conflictSt": "CAS", "rescheduleCycle": 25, "carNum": 6, "sparsePara": 2, "barrierPara": 0.04, "randomSeed": 0, "interferencePara": 0.15, "realMapFlag": false}
