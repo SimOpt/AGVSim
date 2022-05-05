@@ -113,13 +113,15 @@ node0_0			arc0_0-1_0		node1_0
 
 包括以下字段：
 
-"assignStForMission": 任务驱动的任务指派策略选择，可设置为"NVF"、”LIVF“
+"assignStForMission": 任务驱动的任务指派策略选择，可设置为"NVF"、"LIVF"
 
- "assignStForCar": 车辆驱动的任务指派策略选择，可设置为"NMF"、”EMF“
+ "assignStForCar": 车辆驱动的任务指派策略选择，可设置为"NMF"、"EMF"
 
- "routeAlgo": 路径规划算法选择，可设置为”TWRA“、ASA
+ "routeAlgo": 路径规划算法选择，可设置为"TWRA"、"ASA"
 
- "conflictSt": 路径冲突应对策略选择，可设置为”CAS“、”CSS“、”MS“
+ "conflictSt": 路径冲突应对策略选择，可设置为"CAS"、"CSS"、"MS"
+ 
+ "rescheduleCycel": 路径冲突应对策略的重调度周期，仅在"conflictSt"为"CAS"、"MS"时生效
 
  "carNum": AGV数量，大于0的整数
 
